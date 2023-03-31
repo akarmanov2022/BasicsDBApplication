@@ -2,6 +2,7 @@
 
 public class MatchLineup
 {
+
     public int Id { get; set; }
 
     public Match Match { get; set; }

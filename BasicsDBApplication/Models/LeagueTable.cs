@@ -1,7 +1,10 @@
-﻿namespace BasicsDBApplication.Models;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace BasicsDBApplication.Models;
 
 public class LeagueTable
 {
+
     public int Id { get; set; }
 
     public Team Team { get; set; }

@@ -2,6 +2,7 @@
 
 public class MatchScore
 {
+
     public int Id { get; set; }
 
     public Match Match { get; set; }
